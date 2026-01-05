@@ -58,27 +58,47 @@ nav ul li a{
  .dark2{
     color: #474747;
  }
+ .bgcolour{
+background-color: #f8e4d3;
+ }
+ .section-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #181818;
+ }
+ .section-description{
+    font-size: 18px;
+    color: #4e4c4c;
+ }
+ .item-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+ }
 /* Banner styles*/
 .banner{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin:0 35px 0 230px;
-    align-items: center;
+    
 }
 
 .bannertitle{
-    width: 177px;
-    height: 61px;
+    
     font-size: 45px;
+    font-weight: 600;
+
 }
 .bannertitle2{
     color: #181818;
     font-weight: bold;
     font-size: 85px;
-    width: 498px;
-    height: 116px;
-    padding-top: 0px;
+    margin-top: 5px;
+   
+}
+.banner-profile{
+
+    width: 580px;
 }
 .buttons{
     display: flex;
@@ -88,11 +108,48 @@ nav ul li a{
 }
 .banner-content{
     max-width : 585px;
-    height: 356px;
-    font-size: 20px;
-    color: #474747;
-    margin-top: 24px;
-    margin-bottom: 40px;
-    align-items: center;
-    padding: 0%;
+    
+}
+.about{
+    border-radius: 5px;
+    padding: 131px 156px;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.aboutitems{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.allabout{
+    background-color: #FFFFFF;
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 24px;
+    
+}
+.whatido{
+    text-align: center;
+    margin-top: 130px;
+}
+.skill{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skillitem{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+        box-shadow: 0px 6px 50px 0px rgba(73, 73, 73, 0.16);
+
 }
